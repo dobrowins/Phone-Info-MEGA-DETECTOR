@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Phone info MEGA-DETECTOR</string>
+
+    <string name="MegaButtonText">PUSH ME IF YOU BRAVE ENOUGH</string>
+
+    <string name="product">Product ID - %1$s</string>
+    <string name="manufacturer">Manufacturer - %1$s</string>
+    <string name="device">Device ID - %1$s</string>
+    <string name="brand">Brand - %1$s</string>
+
+</resources>
