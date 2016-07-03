@@ -32,17 +32,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                /**
-                 * android official receipt -
-                 * https://developer.android.com/guide/topics/resources/string-resource.html#FormattingAndStyling
-                 */
-
-                /** test hardware device output */
-//                product.setText(R.string.product + productSt); //LT30p
-//                manufacturer.setText("Your manufacturer is " + manufacturerSt); //Sony
-//                device.setText("Your device ID is " + deviceSt); //mint
-//                brand.setText("Your brand is " + brandSt); //Sony
-
                 Resources res = getResources();
 
                 /** getting strings with variables from strings.xml */
@@ -51,10 +40,10 @@ public class MainActivity extends AppCompatActivity {
                 String deviceEndSt = String.format(res.getString(R.string.device), deviceSt);
                 String brandEndSt = String.format(res.getString(R.string.brand), brandSt);
 
-                product.setText(productEndString);
-                manufacturer.setText(manufacturerEndSt);
-                device.setText(deviceEndSt);
-                brand.setText(brandEndSt);
+                product.setText(productEndString); //LT30p
+                manufacturer.setText(manufacturerEndSt); // Sony
+                device.setText(deviceEndSt); // mint
+                brand.setText(brandEndSt); //Sony
 
             }
         }); //end of onClickListener code
