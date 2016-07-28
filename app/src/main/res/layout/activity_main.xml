@@ -60,6 +60,13 @@
             android:id="@+id/brand"
             android:layout_marginBottom="20sp"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/model"
+            android:layout_marginBottom="20sp"/>
     </LinearLayout>
 
 </RelativeLayout>
