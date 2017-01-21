@@ -16,6 +16,8 @@
         android:gravity="center"
         android:id="@+id/linearLayout">
 
+        <!--todo place button at the bottom-->
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -26,13 +28,13 @@
             android:background="@color/colorPrimary"
             android:textColor="@color/colorPrimaryLight"
             android:paddingLeft="16dp"
-            android:paddingRight="16dp"/>
+            android:paddingRight="16dp"
+            android:onClick="showPhoneInformation"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text=""
             android:id="@+id/product"
             android:layout_marginBottom="20sp"/>
 
@@ -40,7 +42,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text=""
             android:id="@+id/manufacturer"
             android:layout_marginBottom="20sp"/>
 
@@ -48,7 +49,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text=""
             android:id="@+id/device"
             android:layout_marginBottom="20sp"/>
 
@@ -56,7 +56,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text=""
             android:id="@+id/brand"
             android:layout_marginBottom="20sp"/>
 
@@ -64,7 +63,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text=""
             android:id="@+id/model"
             android:layout_marginBottom="20sp"/>
     </LinearLayout>
